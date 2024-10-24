@@ -18,6 +18,8 @@ chmod 777 bootstrap/cache/
 
 create database hjh_image default character set utf8mb4 collate utf8mb4_unicode_ci;
 
+mysqldump -h 127.0.0.1 -u root -p hjh_image > hjh_image.sql
+
 https://hjh-image1.wepromo.cn/
 admin@ai-space.net
 admin11
